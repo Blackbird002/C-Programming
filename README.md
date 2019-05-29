@@ -1,6 +1,6 @@
 # C-Programming
 
-## Assignments
+## Projects
 
 | Project | Location | Notes |
 |---------|----------|-------|
