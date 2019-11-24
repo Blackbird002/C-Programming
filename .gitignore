@@ -1,3 +1,5 @@
-ReadingFromFile/main.exe
 Fork/fork
 Fork/.vscode/settings.json
+Generic Stack/stackTest
+*.o
+*.exe
