@@ -30,4 +30,9 @@ void StackDispose(Stack *s);
  */
 void StackPush(Stack *s, void *elemAddr);
 
+/*
+ *  Pops an element off of the stack
+ *  s is pointer to Stack
+ *  elemAddr is the pointer that will contain contents
+ */
 void StackPop(Stack *s, void *elemAddr);
