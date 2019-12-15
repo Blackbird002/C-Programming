@@ -1,9 +1,15 @@
-CC      = gcc
-CFLAGS  = -g
+CC      	= gcc
+CFLAGS  	= -Wall -g
+LDFLAGS		=
+OBJFILES 	= main.o
+TARGET		= readFile
 
 default: all
 
-all: main
+all: $(TARGET)
 
-main: main.c
-	$(CC) $(CFLAGS) -o main main.c
+$(TARGET) : $(OBJFILES)
+	$(CC) $(CFLAGS) -o $(TARGET) $(OBJFILES) $(LDFLAGS)
+
+clean:
+	rm -f $(OBJFILES) $(TARGET) *~

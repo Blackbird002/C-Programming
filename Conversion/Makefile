@@ -1,9 +1,15 @@
-CC      = gcc
-CFLAGS  = -g
+CC      	= gcc
+CFLAGS  	= -Wall -g
+LDFLAGS		=
+OBJFILES 	= stringToNumber.o
+TARGET		= strToNum
 
 default: all
 
-all: stringToNumber
+all: $(TARGET)
 
-stringToNumber: stringToNumber.c
-	$(CC) $(CFLAGS) -o stringToNumber stringToNumber.c
+$(TARGET) : $(OBJFILES)
+	$(CC) $(CFLAGS) -o $(TARGET) $(OBJFILES) $(LDFLAGS)
+
+clean:
+	rm -f $(OBJFILES) $(TARGET) *~

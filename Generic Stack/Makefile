@@ -1,5 +1,5 @@
 CC      	= gcc
-CFLAGS  	= -Wall
+CFLAGS  	= -Wall -g
 LDFLAGS		=
 OBJFILES 	= Stack.o main.o
 TARGET		= stackTest

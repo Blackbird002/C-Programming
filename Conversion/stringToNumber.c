@@ -36,13 +36,17 @@ int convertToLong(char *str){
     } else if (*endptr != '\0') {
         printf("This is the garbage at the end of the CString: %s\n",endptr);
     }
-    printf("This is the result %i",val);
+    printf("This is the result %lu \n",val);
+    return 0;
 }
 
 int main(int argc, char **argv){
-    printf("argv[1] = %s\n",argv[1]);
-    if(convertToLong(argv[1])){
-        printf("Error in convertToLong(char *str)!\n");
-    }
+    if(argv[1]){
+        printf("argv[1] = %s\n",argv[1]);
+        if(convertToLong(argv[1]))
+            printf("Error in convertToLong(char *str)!\n");
+    }else
+        return 1;
+        
     return 0;
 }

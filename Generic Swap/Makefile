@@ -1,8 +1,8 @@
 CC      	= gcc
 CFLAGS  	= -Wall -g
 LDFLAGS		=
-OBJFILES 	= fork.o
-TARGET		= fork
+OBJFILES 	= main.o
+TARGET		= swap
 
 default: all
 
