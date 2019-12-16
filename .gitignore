@@ -5,3 +5,4 @@ Conversion/strToNum
 *.o
 *.exe
 pthreads/threadGlobalVar/thread1
+pthreads/multipleThreads/multThreads
