@@ -67,7 +67,7 @@ int main(int argc, char **argv){
         pthread_attr_init(&attr);
 
         //Create thread and run on fib_runner, passing in term parameter
-        pthread_create(&thId[i], &attr, fib_runner, term);
+        pthread_create(&thId[i], &attr, fib_runner, &term[i]);
     }
 
     //Array of long long int pointers
