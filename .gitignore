@@ -10,3 +10,5 @@ pthreads/multipleThreads/multThreads
 ReadingFromFile/readFile
 "Generic Swap/swap"
 "Generic Linear Search/linearSearch"
+Generic Stack/stackTest
+pthreads/threadsDynamicMem/threadsDynamicMem
