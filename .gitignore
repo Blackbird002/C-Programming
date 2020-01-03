@@ -12,3 +12,4 @@ ReadingFromFile/readFile
 "Generic Linear Search/linearSearch"
 Generic Stack/stackTest
 pthreads/threadsDynamicMem/threadsDynamicMem
+pthreads/threadsMutexLock/threadsMutexLock
